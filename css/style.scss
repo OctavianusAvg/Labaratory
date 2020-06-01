@@ -471,7 +471,9 @@ $test: sticky;
 			transform: rotate(90deg) scale(1,-1);
 			border: 1px solid black;
 			bottom:1px;
-			left: 0px;	
+			left: 0px;
+			right: 0px;
+			top: 0px;	
 		}
 		.stck_window{
 			position:sticky;
@@ -483,6 +485,8 @@ $test: sticky;
 			border: 1px solid black;
 			bottom:1px;
 			left: 0px;
+			right: 0px;
+			top: 0px;
 		}
 	}
 

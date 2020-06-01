@@ -428,6 +428,8 @@
   border: 1px solid black;
   bottom: 1px;
   left: 0px;
+  right: 0px;
+  top: 0px;
 }
 .sticky .sticky_box .stck_window {
   position: sticky;
@@ -439,5 +441,7 @@
   border: 1px solid black;
   bottom: 1px;
   left: 0px;
+  right: 0px;
+  top: 0px;
 }
 /*# sourceMappingURL=style.css.map */
