@@ -283,4 +283,154 @@
   margin-left: 150px;
   border: 1px solid black;
 }
+.fixed .fixed {
+  position: fixed;
+  width: 300px;
+  height: 300px;
+  box-sizing: border-box;
+  border: 1px solid green;
+  padding: 4px;
+  margin-bottom: 2px;
+  top: 310px;
+  left: 320px;
+  right: 620px;
+}
+.fixed .fixed .fixed_roof {
+  position: fixed;
+  width: 295px;
+  height: 147px;
+  box-sizing: border-box;
+  background-color: #87e6dc;
+  overflow: hidden;
+  top: 315px;
+  left: 325px;
+  right: 620px;
+}
+.fixed .fixed .fixed_roof .fix_roof {
+  position: fixed;
+  width: 0;
+  height: 0;
+  border-left: 149px solid transparent;
+  border-right: 149px solid transparent;
+  border-bottom: 149px solid brown;
+  top: 315px;
+  left: 325px;
+  right: 620px;
+}
+.fixed .fixed .fixed_roof .fix_roof .fix_chimney {
+  position: fixed;
+  width: 20px;
+  height: 50px;
+  left: 400px;
+  top: 340px;
+  background-color: grey;
+  border: 2px thick black;
+}
+.fixed .fixed .fixed_box {
+  z-index: 2;
+  position: fixed;
+  box-sizing: border-box;
+  width: 295px;
+  height: 147px;
+  top: 465px;
+  left: 325px;
+  height: width;
+  border: 1px solid black;
+}
+.fixed .fixed .fixed_box .fix_door {
+  position: fixed;
+  box-sizing: border-box;
+  top: 463px;
+  width: 88.7px;
+  height: 46.7px;
+  margin-left: 50px;
+  margin-top: 56.6px;
+  transform-origin: top left;
+  transform: rotate(90deg) scale(1, -1);
+  border: 1px solid black;
+}
+.fixed .fixed .fixed_box .fix_window {
+  position: fixed;
+  box-sizing: border-box;
+  width: 96.7px;
+  height: 46.7px;
+  top: 555px;
+  left: 325px;
+  margin-top: -30px;
+  margin-left: 150px;
+  border: 1px solid black;
+}
+
+.sticky {
+  position: relatives;
+  width: 300px;
+  height: 300px;
+  box-sizing: border-box;
+  border: 1px solid green;
+  padding: 4px;
+  margin-bottom: 2px;
+}
+.sticky .sticky_roof {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 50%;
+  background-color: #87e6dc;
+  overflow: hidden;
+  bottom: 1px;
+}
+.sticky .sticky_roof .stck_roof {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  transform-origin: 0 100%;
+  transform: rotate(45deg) scale(1, 1.41);
+  border: 1px solid black;
+  background-color: brown;
+  bottom: 1px;
+}
+.sticky .sticky_roof .stck_roof .stck_chimney {
+  position: relative;
+  width: 20px;
+  height: 50px;
+  margin-top: 80px;
+  transform-origin: top left;
+  transform: rotate(125deg) scale(-1, 1);
+  background-color: grey;
+  border: 2px thick black;
+  bottom: 1px;
+}
+.sticky .sticky_box {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 50%;
+  height: width;
+  border: 1px solid black;
+  bottom: 1px;
+}
+.sticky .sticky_box .stck_door {
+  position: relative;
+  box-sizing: border-box;
+  width: 30%;
+  height: 30%;
+  margin-left: 50px;
+  margin-top: 56.6px;
+  transform-origin: top left;
+  transform: rotate(90deg) scale(1, -1);
+  border: 1px solid black;
+  bottom: 1px;
+}
+.sticky .sticky_box .stck_window {
+  position: relative;
+  box-sizing: border-box;
+  width: 30%;
+  height: 30%;
+  margin-top: -30px;
+  margin-left: 150px;
+  border: 1px solid black;
+  bottom: 1px;
+}
 /*# sourceMappingURL=style.css.map */
